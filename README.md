@@ -1,4 +1,4 @@
-Social Media Engagement Analyzer
+#Social Media Engagement Analyzer
 About the Project
 
 Social media platforms generate a huge amount of engagement data every day, but understanding what that data actually means can be challenging. I built this project to explore how different types of content perform and how users interact with them.
