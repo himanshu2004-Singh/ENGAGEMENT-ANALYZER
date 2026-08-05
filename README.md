@@ -1,44 +1,43 @@
 # Social Media Engagement Analyzer
+About the Project
 
-## Introduction
-This project utilizes machine learning and artificial intelligence techniques to analyze social media user engagement based on various factors such as sentiment, likes, retweets, and hashtags. The goal is to understand user behavior and identify patterns that contribute to higher engagement on social media platforms.
+Social media platforms generate a huge amount of engagement data every day, but understanding what that data actually means can be challenging. I built this project to explore how different types of content perform and how users interact with them.
 
-## Installation and Set-up
-This project can either be executed on your local machines using Jupyter Notebook or using Google Colab.
+Using Python, I cleaned the dataset, explored key patterns, and created visualizations to better understand engagement metrics and sentiment. The goal was not just to analyze the data, but to tell a story through it and uncover insights that could help improve content strategy.
 
-### Using Google Colab
-1. Go to the following [link](https://colab.research.google.com/) to use Google Colab.
-![googlecolab1](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrive1.png)
-2. Clone the repository.
-4. Go to File option in the Menu Bar and click on "Open Notebook" to open the ipynb file saved on your device. Conversely, you can also use the Keyboard shortcut Ctrl+O.
-![googlecolab2](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/googlecolab2.png)
-3. Click on "Upload" and select the downloaded ipynb file from the cloned repository.
-![googlecolab3](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/googlecolab3.png)
-4. While executing the following code snippet, you will be presented with a prompt. 
-![gdrivecodesnippet](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrivecodesnippet.png)
-For the code snippet to work, you need to allow Google Colab to access your Google Drive to access the CSV dataset file present on your Google Drive.
-   - Permit the Notebook to access the google drive. Click "Connect to Drive".
-   ![gdrive1](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrive1.png)
-   - Choose the Google Account you are working on.
-   ![gdrive2](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrive2.png)
-   - Sign in to Google Drive for Desktop by clicking "Continue".
-   ![gdrive3](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrive3.png)
-   - Allow additional access to Google account. [Read the Consent Summary carefully]
-   ![gdrive4](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/gdrive4.png)
+What I Worked On
+Cleaned and prepared the dataset for analysis.
+Handled missing values and checked data quality.
+Explored engagement metrics such as likes, comments, and shares.
+Analyzed sentiment distribution across posts.
+Created visualizations to identify trends and relationships.
+Summarized findings into actionable insights.
+Tools Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Key Takeaways
 
+Throughout this project, I discovered several interesting patterns in user engagement and sentiment. Visualizing the data made it easier to understand which types of posts attracted more interaction and how audience sentiment varied across the dataset.
 
-### Using Jupyter Notebook
-1. Install Jupyter Notebook using default installation method.
-2. Clone the repository and open the ipynb file using Jupyter Notebook
-3. Execute the code sequentially
+More importantly, this project strengthened my understanding of data cleaning, exploratory data analysis, and communicating insights using visualizations.
 
-## Usage
-1. Run the `sentimentdataset.csv` file containing the dataset in the same directory as the Python Notebook.
-2. Execute the Python Notebook `social_media_engagement_analyzer.ipynb`.
-3. Follow the prompts and instructions provided in the script to preprocess the data, train the machine learning model, and visualize the results.
+Project Files
+├── sentimentdataset.csv
+├── social_media_engagement_analyzer.ipynb
+└── README.md
+Why I Built This
 
-## Dataset
-The dataset used in this project (`sentimentdataset.csv`) contains social media posts with information such as timestamp, sentiment, likes, retweets, and hashtags. The Dataset was taken from Kaggle. Link for the dataset used is given [here.](https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset/data)
+I created this project to strengthen my practical data analysis skills and gain hands-on experience with real-world datasets. It gave me the opportunity to apply Python libraries, practice exploratory data analysis, and improve my ability to communicate insights through data.
+
+About Me
+
+Hi, I'm Himanshu Singh, an aspiring Data Analyst with a strong interest in turning raw data into meaningful insights. I enjoy working on projects involving Python, SQL, Excel, and Power BI, and I'm continuously building projects that help me grow as an analyst.
+
+If you have any feedback or suggestions, I'd be happy to hear them. If you found this project useful, consider giving it a ⭐.nts-analysis-dataset/data)
 ![kaggle](https://github.com/anujeshify/Social-Media-Engagement-Analyzer/blob/main/Extras/kaggle.png)
 
 ## Models
